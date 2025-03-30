@@ -43,7 +43,7 @@
                 </div>
             </div>
             <div class="card-footer text-muted">
-                Lease Start: Dec 31, 2024 | 3-Year Term | 12,000 miles/year
+                Lease Start: Dec 31, 2024 | 3-Year Term | 15,000 miles/year
             </div>
         </div>
     </div>
@@ -54,8 +54,8 @@
         document.getElementById('mileageForm').addEventListener('submit', function(e) {
             e.preventDefault();
             
-            // Fixed lease parameters
-            const yearlyMiles = 12000;
+            // Updated lease parameters
+            const yearlyMiles = 15000; // Changed from 12000 to 15000
             const leaseYears = 3;
             const totalAllowedMiles = yearlyMiles * leaseYears;
             const currentMiles = parseFloat(document.getElementById('currentMiles').value);
